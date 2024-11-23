@@ -1,5 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    padding-bottom: 50px;
+}
+h1 {
+    
+    color: #E53170;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    padding-left: 100px 0px 100px 0px;
+}
+
+.box-container {
+    display: flex;
+}
+
