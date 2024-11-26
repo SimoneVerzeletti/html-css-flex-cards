@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Fredoka", sans-serif;
+}
 main {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 header {
@@ -22,31 +25,39 @@ main {
     padding-left: 100px 0px 100px 0px;
 }
 
-main p {
+main > p {
     padding-bottom: 30px;
 }
 
 .box-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: solid;
     gap: 10px;
+    flex-wrap: wrap;
+    color: whitesmoke;
 }
 
 .box {
-    background-color: #949494;
-    
-    /*flex-basis: calc((100%/3)-10px);*/
+    background-color: black;
+    display: flex;    
+    width: calc((100% / 3) - 10px);
+    align-items: center;
 }
 
-/*.box-int {
-    display: flex;
-    flex-direction: column;
-
-}
-
-img {
-
+.box img {
     width: 100px;
-}*/
+    height: 100px;
+}
+
+.contacts {
+    text-align: left;
+    padding: 10px;
+    width: fit-content;
+}
+
+.contacts p {
+    padding: 10px 0 10px 0;
+}
+
+a {
+    color: #0000FF;
+}
